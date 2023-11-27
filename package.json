@@ -1,0 +1,25 @@
+{
+  "name": "vehicle_renting_app_services",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekvchavan/vehicle_renting_app_services.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivekvchavan/vehicle_renting_app_services/issues"
+  },
+  "homepage": "https://github.com/vivekvchavan/vehicle_renting_app_services#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1",
+    "nodemon": "^3.0.1"
+  }
+}
