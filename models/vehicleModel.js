@@ -14,7 +14,7 @@ const vehicleSchema = new mongoose.Schema({
     ],
     rentPerHour: { type: Number, required: true },
     currencyType: { type: String, required: true }
-}, { timestamps: trye });
+}, { timestamps: true });
 
 const vehicleModel = mongoose.model('vehicle', vehicleSchema);
 
