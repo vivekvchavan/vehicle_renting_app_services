@@ -6,7 +6,6 @@ router.get("/getAllVehicles", async(req,res)=>{
    try {
     const vehicle = await Vehicle.find();
     console.log("getAllVehicles Service API Called");
-    console.log(vehicle);
     res.send(vehicle);    
    } catch (error) {
     return res.status(400).json(error);
